@@ -2,7 +2,7 @@
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import ReactLenis from "lenis/react";
-import { Zap, Flame, Users, Car, Truck } from "lucide-react";
+import { Zap, Flame, Users, Car, Truck, MapPin } from "lucide-react";
 import BlogCardOne from '@/components/sections/blog/BlogCardOne';
 import ContactText from '@/components/sections/contact/ContactText';
 import FeatureCardTwentySix from '@/components/sections/feature/FeatureCardTwentySix';
@@ -148,6 +148,7 @@ export default function LandingPage() {
       buttons={[
         { text: "اطلب عبر واتساب الآن", href: "https://wa.me/966XXXXXXXX" },
         { text: "احجز جلستك الآن", href: "#" },
+        { text: "موقعنا على الخريطة", href: "https://maps.google.com/?q=Mabshoor+Al+Taif" },
       ]}
     />
   </div>
@@ -156,6 +157,7 @@ export default function LandingPage() {
       <FooterCard
       logoText="مبشور الطائف"
       copyrightText="© 2025 مطعم مبشور الطائف - نكهة أصيلة وتجربة تستحق التكرار."
+      socialLinks={[{ icon: MapPin, href: "https://maps.google.com/?q=Mabshoor+Al+Taif", ariaLabel: "موقع المطعم على الخريطة" }]}
     />
   </div>
       </ReactLenis>
