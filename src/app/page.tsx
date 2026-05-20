@@ -144,7 +144,7 @@ export default function LandingPage() {
       <ContactText
       useInvertedBackground={true}
       background={{ variant: "cell-wave" }}
-      text="جاهز لتجربة أفضل مشويات في الطائف؟ اطلب الآن واستمتع بطعم أصيل وجودة مضمونة."
+      text="جاهز لتجربة أفضل مشويات في الطائف؟ اتصل بنا على +966 012 737 7776. ساعات العمل: 02:00 AM - 05:30 AM"
       buttons={[
         { text: "اطلب عبر واتساب الآن", href: "https://wa.me/966XXXXXXXX" },
         { text: "احجز جلستك الآن", href: "#" },
